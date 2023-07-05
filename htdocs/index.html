@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>Gundam Club</title>
+  </head>
+
+  <body>
+    <header>
+      <ul class="navbar">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+      </ul>
+      <ul class="navbar othernav">
+        <li>
+          <a href="story.html">Story</a>
+        </li>
+        <li>
+          <a href="suit.html">Mobile Suit</a>
+        </li>
+        <li>
+          <a href="quiz.html">Quiz</a>
+        </li>
+      </ul>
+      <ul class="navbar hamnav">
+        <li id="menu">Menu &#9776;</li>
+      </ul>
+
+      <script src="script/menu.js"></script>
+    </header>
+    <div class="main-div">
+      <!-- Your content here -->
+      <h1 class="main-title">This is my Gundam club</h1>
+    </div>
+  
+    <section id="esg-video">
+      <div class="flex-container">
+        <div class="video-container hidden show">
+          <iframe
+            src="https://www.youtube.com/embed/nWoD9LwsTT4?rel=0"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen=""
+            style="border-radius: 10px"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <section id="registration-form">
+      <div class="login-container">
+        <form>
+          <div class="form-container">
+            <div class="form-sections mb">
+              <div class="heading-container">
+                <h1 class="heading">Register</h1>
+              </div>
+            </div>
+            <div class="form-sections">
+              <div class="form-fields">
+                <label for="email">Name</label>
+                <input
+                  name="email"
+                  id="email"
+                  class="input-field"
+                  tabindex="1"
+                  required
+                />
+              </div>
+
+              <div class="form-fields">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="input-field"
+                  tabindex="1"
+                  required
+                />
+              </div>
+
+              <div class="form-fields">
+                <input
+                  type="submit"
+                  value="Register"
+                  class="login-btn"
+                  tabindex="4"
+                />
+              </div>
+            </div>
+
+            <div class="form-sections"></div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
